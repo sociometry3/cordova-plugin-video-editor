@@ -11,6 +11,12 @@ After looking at an article on [How Vine Satisfied Its Need for Speed](http://ww
 
 This plugin will address those concerns, hopefully.
 
+## Notice
+THIS REPO WAS OPTIMIZED FOR LeySerKids, A BRAND OF GRAPECITY INC.
+
+The major enhancements are:
+1. The video captured with Android device can be well recognized on iPhone.
+
 ## Installation
 ```
 cordova plugin add cordova-plugin-video-editor
