@@ -16,6 +16,7 @@ THIS REPO WAS OPTIMIZED FOR LeySerKids, A BRAND OF GRAPECITY INC.
 
 The major enhancements are:
 1. The video captured with Android device can be well recognized on iPhone.
+2. Support some special MEIZU and vivo phone
 
 ## Installation
 ```
