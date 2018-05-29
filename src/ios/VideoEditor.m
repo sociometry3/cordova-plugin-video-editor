@@ -359,7 +359,14 @@
     [dict setObject:[NSNumber numberWithFloat:videoWidth] forKey:@"width"];
     [dict setObject:[NSNumber numberWithFloat:videoHeight] forKey:@"height"];
     [dict setValue:videoOrientation forKey:@"orientation"];
-    [dict setValue:[NSNumber numberWithFloat:track.timeRange.duration.value / 600.0] forKey:@"duration"];
+    /**
+     Ning Wei 2018/05/29
+     Fix bug: The duration of the video which was captured with Android device is NG.
+     
+      [dict setValue:[NSNumber numberWithFloat:track.timeRange.duration.value / 600.0] forKey:@"duration"];
+     **/
+    [dict setValue:[NSNumber numberWithFloat:CMTimeGetSeconds(avAsset.duration)] forKey:@"duration"];
+    /** END **/
     [dict setObject:[NSNumber numberWithLongLong:size] forKey:@"size"];
     [dict setObject:[NSNumber numberWithFloat:track.estimatedDataRate] forKey:@"bitrate"];
 
