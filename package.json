@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-video-editor",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cordova Video Editor Plugin Optimized for LeySerKids",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
