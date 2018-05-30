@@ -1,4 +1,13 @@
-[![npm version](https://badge.fury.io/js/cordova-plugin-video-editor.svg)](https://badge.fury.io/js/cordova-plugin-video-editor)
+
+## Notes
+THIS REPO WAS OPTIMIZED FOR LeySerKids, A BRAND OF GRAPECITY INC.
+
+The major enhancements are:
+* The video captured with Android device can be well recognized on iPhone.
+* Support some special MEIZU and vivo phone
+* Other bug fixes
+
+---------------------
 
 This is a cordova plugin to assist in several video editing tasks such as:
 
@@ -11,16 +20,11 @@ After looking at an article on [How Vine Satisfied Its Need for Speed](http://ww
 
 This plugin will address those concerns, hopefully.
 
-## Notice
-THIS REPO WAS OPTIMIZED FOR LeySerKids, A BRAND OF GRAPECITY INC.
 
-The major enhancements are:
-1. The video captured with Android device can be well recognized on iPhone.
-2. Support some special MEIZU and vivo phone
 
 ## Installation
 ```
-cordova plugin add cordova-plugin-video-editor
+cordova plugin add https://github.com/leyserkids/cordova-plugin-video-editor.git
 ```
 `VideoEditor` and `VideoEditorOptions` will be available in the window after deviceready.
 
