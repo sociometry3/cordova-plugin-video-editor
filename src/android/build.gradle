@@ -5,7 +5,7 @@ repositories{
 }
 
 dependencies {
-    compile 'com.github.leyserkids:android-transcoder:v0.1.12_kr'
+    compile 'com.github.ypresto:android-transcoder'
 }
 
 android {
