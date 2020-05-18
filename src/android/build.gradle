@@ -5,7 +5,7 @@ repositories{
 }
 
 dependencies {
-    compile 'com.github.ypresto:android-transcoder'
+    compile 'com.github.sociometry3:android-transcoder:Tag'
 }
 
 android {
